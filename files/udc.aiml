@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <!-- Sambutan awal -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+        <li>Halo! Aku dapat membantu kamu belajar sesuai dengan jurnal yang kamu buat loh.</li>
+        <li>Hi! Jika ada pertanyaan terkait jurnal bisa tanyakan di sini ya.</li>
+        <li>Selamat datang! Aku bisa bantu kamu merangkum jurnal. Silakan tanya jika ada yang belum dimengerti.</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- NLP -->
+  
+  <category>
+    <pattern>apa judul dari jurnal yang dibahas</pattern>
+    <template>Simulasi Jaringan untuk Sistem Distribusi Drupal dengan GNS3</template>
+  </category>
+
+  <category>
+    <pattern>bagaimana cara mengaksesnya</pattern>
+    <template>kamu dapat akses pada link ini https://journal.untar.ac.id/index.php/jiksi/article/view/31582</template>
+  </category>
+
+  <category>
+    <pattern>jurnal ini terbit dimana</pattern>
+    <template>JIKSI(Jurnal Ilmu Komputer dan Sistem Informasi)</template>
+  </category>
+
+  <category>
+    <pattern>kapan jurnal ini terbit</pattern>
+    <template>28 juli 2024</template>
+  </category>
+
+  <category>
+    <pattern>siapakah yang membuat jurnal ini</pattern>
+    <template>Witriatna Kosahi, Hansen Pratama, Maryanto, Henokh Mikhael Kristiantan, Carlouis Fernando Hariyadi</template>
+  </category>
+  
+  <category>
+    <pattern>mengapa pakai gns3</pattern>
+    <template>Karena GNS3 merupakan aplikasi yang digunakan untuk uji coba networking.</template>
+  </category>
+  
+  <category>
+    <pattern>apa itu gns3</pattern>
+    <template>GNS3 (Graphical Network Simulator-3) adalah perangkat lunak emulator jaringan. Dalam penelitian ini, GNS3 digunakan untuk meniru perangkat jaringan seperti router, firewall, dan switch dalam lab virtual. Dengan GNS3, simulasi topologi jaringan bisa dijalankan seperti di dunia nyata, tapi tanpa perlu perangkat fisik.</template>
+  </category>
+
+  <category>
+    <pattern>apa yang perlu dipelajari agar dapat memahami distributed sistem</pattern>
+    <template>Ada strategi routing, VPN, firewall dan materi distributed system lainnya.</template>
+  </category>
+
+  <category>
+    <pattern>mengapa pakai gns3</pattern>
+    <template>Karena GNS3 merupakan aplikasi yang digunakan untuk uji coba networking.</template>
+  </category>
+ 
+  <category>
+    <pattern>apakah tujuan dari penilitian pada jurnal ini</pattern>
+    <template>Tujuan dari penelitian ini adalah untuk membantu orang-orang yang ingin memulai bisnis e-commerce tanpa harus menginvestasikan banyak uang dan waktu dalam pembuatan situs web</template>
+  </category>
+
+  <category>
+    <pattern>apakah tujuan dari penilitian pada jurnal ini</pattern>
+    <template>Tujuan dari penelitian ini adalah untuk membantu orang-orang yang ingin memulai bisnis e-commerce tanpa harus menginvestasikan banyak uang dan waktu dalam pembuatan situs web</template>
+  </category>
+
+  <category>
+    <pattern>Teknologi apa yang digunakan untuk membuat website e-commerce dalam penelitian ini?</pattern>
+    <template>Untuk pembuatan situs web e-commerce, penelitian ini menggunakan kerangka kerja open-source Drupal dan Cloud Platform as a Service (PaaS).</template>
+  </category>
+
+  <category>
+    <pattern>Mengapa penelitian ini menggunakan Cloud PaaS?</pattern>
+    <template>Cloud PaaS digunakan karena menyediakan platform yang memudahkan pembuatan situs web e-commerce. PaaS menawarkan solusi yang lebih hemat waktu dan biaya, stabil, aman, efisien, dan fleksibel. Selain itu, PaaS memberikan kemudahan pengembangan , skalabilitas otomatis , dan hemat biaya</template>
+  </category>
+</aiml>
